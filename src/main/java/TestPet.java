@@ -1,24 +1,29 @@
 public class TestPet {
 
-    	@BeforeSuite
-	void setUp() {
-		System.out.println("Settings up...");
-	}
+//    	@BeforeSuite
+//	void setUp() {
+//		System.out.println("Settings up...");
+//	}
 
 //	@BeforeSuite
 //	void setUp2() {
 //		System.out.println("Settings-2 up...");
 //	}
 
-	@AfterSuite
-	void tearDown() {
-		System.out.println("Finalizing test class...");
-	}
+//	@AfterSuite
+//	void tearDown() {
+//		System.out.println("Finalizing test class...");
+//	}
 
 //	@AfterSuite
 //	void tearDown2() {
 //		System.out.println("Finalizing-2 test class...");
 //	}
+
+    @Test
+    void shouldTestSomethingDefault() {
+        System.out.println("Method-default with test annotation...");
+    }
 
 
     @Test(order = 1)

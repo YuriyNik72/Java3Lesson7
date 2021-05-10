@@ -8,5 +8,5 @@ import java.lang.annotation.Target;
     @Target(ElementType.METHOD)
 
 public @interface Test {
-    int order() default 0;
+    int order() default 0; // задание приоритетов
 }
